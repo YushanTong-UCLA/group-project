@@ -1,7 +1,14 @@
-How does the transit system devepment drives population migration from New York City to regional suburbs in Greater New York area?
+# How does the transit system devepment drives population migration from New York City to regional suburbs in Greater New York area?
 
-An explanation of why it is important to you, why it matters to others, and what is at stake
+# An explanation of why it is important to you, why it matters to others, and what is at stake:
+The recent trend of population decline in primary cities and suburban population growth in American Snow belt (Northeast and Mid-West), and the expansive bus, train, and ferry services in "transit desert" (where residents need to walk at least 15 minutes to the nearest subway/rail/ferry station) led us to consider the possible relationship between the two. 
+
+Despite expansive train/subway/ferry networks, the New York City and its neighboring boroughs, many neighborhoods are still considered not as accessible. However, due to the increasing housing price in Manhattan and job growth in Manhattan's neighboring boroughs, the city population slowly migrates to the "transit desert" neighborhoods. The rezoning of the neighboring boroughs that allows higher density in early 2000s filled up the land near the train tracks first, job growth and demand for affordable housing continue to push development outwards.
+
+In this project, we hope to map out the population migration from city center to the "transit desert" in remote areas from New York City in Greater New York region, and how such shift expands the city boundary, from an island to slowly incorporating surrounding regions into its economic development. We hope to showcase the impacts of suburbanization on city center and previous "transit desert" areas, in terms of land use and housing costs (Feel free to delete this...not sure at this point if we are committed to so many topics). 
+
 A description of the spatial scope (e.g. Boyle Heights or Hong Kong), and why space and/or time matters for your project
+Greater New York region
 A preliminary but definitive description of data sources (at least two) that you will use
 Include datasource with links
 A scope that explains the intended analysis and resulting visualizations for your project
