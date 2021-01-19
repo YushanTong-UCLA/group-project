@@ -8,8 +8,12 @@ The recent trend of population decline in primary cities and suburban population
 We'd love to work on Greater New York region because we'd like to explore the relationship between population migration from central city to neighboring regions and the existence of subway/train/ferry stations. 
 
 A preliminary but definitive description of data sources (at least two) that you will use
+New Jersey passenger rail line stations
+New Jersey passenger rail lines
 
 Include datasource with links
+New Jersey passenger rail lines: https://njogis-newjersey.opendata.arcgis.com/datasets/passenger-railroad-lines-in-nj?geometry=-74.812%2C40.611%2C-73.505%2C40.793
+New Jersey passenger rail line stations: https://njogis-newjersey.opendata.arcgis.com/datasets/railroad-stations-in-nj
 
 **A scope that explains the intended analysis and resulting visualizations for your project**
 In this project, we hope to map out the population migration from city center to the "transit desert" in remote areas in Greater New York region, and how such shift expands the city boundary, from an island to slowly incorporating surrounding regions into its economic development. We hope to showcase the impacts of suburbanization on city center and previous "transit desert" areas, in terms of land use and housing costs (Feel free to delete this...not sure at this point if we are committed to so many topics)
