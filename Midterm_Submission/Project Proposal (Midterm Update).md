@@ -1,5 +1,4 @@
 <h2>
   <code style="background:black;color:white">
-  Midterm Report
-  </code>
+Project Proposal (Midterm Update)  </code>
 </h2>
