@@ -8,13 +8,18 @@ Project Proposal (Midterm Update)  </code>
 
 
 ## **Section 1. Project Introduction**
-This project is to capture the intra-regional migration trend in the New York Metropolitan Area in relation to transportation, and its effects on the local economy, employment, and housing affordability.
+This project focuses on the study of internal migration (infra-region migration) and transportation (mobility) in metropolitan areas. It involves the topics of migration, demography, economy, housing, transportation, and mobility. The spatial geography this project mainly explores is New York Metropolitan Area. The project aims to answer three research questions: what is the migration pattern at both national and local scales? What are the impacts of migration on the local economy and housing? Does and how transportation infrastructure affect migration and its impacts?
 
 
 ## **Section 2. Why Does It Matter?**
-On a personal level, we are interested in the transportation system and regional economics, and we chose this project because we want to use spatial data science to analyze the impact of the transit system on population migration patterns, and the effects of migration on the local economy, housing, and employment. In addition, both of us shared the connection with the New York Metropolitan Area since we have lived on the east coast, and would love to deepen our understanding of the urban system of the region.<br /> 
+There are three contexts that we think make those research questions matter:<br />
+<br />
+First, they matter in the context of our personal interests in planning. Yushan’s interest is in transportation, while Zhendong(Jayden)’s is in regional economic development. Therefore, we thought this topic a good intersection of our shared interests. We hope to use spatial data science to deepen our existing knowledge of such fields and further expand our analytical horizon in planning research and study. Also, both of us have been living on the East Coast in the past. Therefore, we are able to develop the research with our prior experiences and pieces of knowledge about the New York Metropolitan Area.<br /> 
+<br />
+Second, they matter in the context of the post-COVID workstyle. As we’ve been dealing with the pandemic for a year, we have to acknowledge the changes it brings to everyone. Some are temporary, but some are potentially structural, like adapting to work-from-home modes on a regular basis. Those changes are going to further lead the migration at both local and national scales. With this research project, we are trying to capture the migration pattern and observe the potential impacts. We hope to provide planning professionals with some insights on migration and design for future change in a more proactive way.<br />
+<br />
+Third, they matter in the context of transit-oriented development and migration. On the one hand, we see a recent trend of population decline in primary cities and suburban population growth in many US regions. On the other hand, there is an increasing interest and development in transited oriented planning models. This research project is trying to see if there is an underlying relationship between those two trends, which is able to inform planers how transportation mobility can support and direct the regional internal migration and avoid population outflows. 
 
-On the broader scale, the recent trend of population decline in primary cities and suburban population growth in the American Snow belt (Northeast and Midwest), and the expansive rail services in "transit desert" (where residents need to walk at least 15 minutes to the nearest rail station) led us to consider the possible relationship between the two. The rezoning of the neighboring boroughs that allowed higher density in the early 2000s filled up the land near the train tracks, while job growth, and demand for affordable housing continue to push development outwards. The recent pandemic further led outwards migration of the New York City population to nearby cities, and we hope to capture this trend using map visualization to predict future migration trends between cities and suburbs. By analyzing the trend and impact, we want to inform policymakers of the potential outcomes of population migration on the local economy, housing costs, and job markets. 
 
 
 ## **Section 3. Spatial Scope**
@@ -66,16 +71,14 @@ As housing costs decrease with distance from urban core increases, and the incre
 Based on the analysis we conducted on housing affordability so far, we observed a pattern of high housing affordability in the center of New York Metro Area (New York County). In addition, we observed the decreased affordability in the surrounding regions of New York County.<br />
 
 ## **Section 5. Methodology**
+This project is designed with five steps to expand the discussion vertically and with three categories of data develop each research step horizontally.<br />
+<br />
+As for the vertical development of research, those five steps range from the national scale to the local scale and from capturing the trend to analyzing the micro-relationship. The first step is to take a look at the current moving trend during the pandemic. The second step is to understand the migration trend. The third step is to zoom in on New York metro area’s regional migration pattern and its transportation network. The fourth step is to observe the economy and housing changes during the migration process. Furthermore, the last step is to analyze all individual findings and look for the relationship between migration, the impacts of migration, and transportation.<br />
+<br />
+As for the horizontal development of the research, our workflow generally involves three categories. First, working with SHP geodata, we want to map out the necessary geographic locations and perform spatial analysis (e.g., transportation network analysis). Second, working with various CSV census data, we clean, sort, filter, and combine datasets to look for individual findings and produce charts for them. Lastly, we combine the CSV census data with SHP geodata to spatially analyze and visualize the findings.<br />
+<br />
 
 ## **Section 6. Expected Insights**
 Through this research project, we hope to conclude and record the intra-regional migration trend in the New York Metro Area from the perspectives of the migration direction, speed, and nature. Furthermore, by exploring the relationship between population migration and the transit network, we hope to be able to generalize the research findings to other metropolitan areas in the U.S. On the other hand, through studying the effects of migration, we hope to understand how we can respond and manage future migration and the challenges it will bring, especially in today’s pandemic context.  
 
 
-
-An introduction of your research question
-An explanation of why it is important to you, why it matters to others, and what is at stake
-A description of the spatial scope (e.g. Boyle Heights or Hong Kong), and why space and/or time matters for your project
-A preliminary but definitive description of data sources (at least two) that you will use
-Include datasource with links
-A description, accompanied by a visual flow chart that explains the methodology for the intended analysis and resulting visualizations for your project
-A concluding paragraph of what insights you expect to gain from your research
