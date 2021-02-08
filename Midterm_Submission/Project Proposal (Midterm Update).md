@@ -46,9 +46,7 @@ https://www.mymove.com/moving/covid-19/coronavirus-moving-trends/<br />
 <br />
 
 ### 3.Transportation Network Data<br />
-
-We collected the transit system data in the New York Metro Area and combined them into two map layers: rail line and station. We are hoping to capture the relationship between migration trend and transit station density on the county level, so there is a need to combine the transit station layer with the county layer, and calculate station density based on geological location (“geometry”/”FIPS”).<br />.  
-https://apps.bea.gov/iTable/index_regional.cfm<br />
+We collected the transit system data in the New York Metro Area and combined them into two map layers: rail line and station. We are hoping to capture the relationship between migration trend and transit station density on the county level, so there is a need to combine the transit station layer with the county layer, and calculate station density based on geological location (“geometry”/”FIPS”).<br />
 <br />
 The data is collected from NJ and NJ transportation companies<br />
 https://njogis-newjersey.opendata.arcgis.com/datasets/passenger-railroad-lines-in-nj?geometry=-74.812%2C40.611%2C-73.505%2C40.793<br />
@@ -59,7 +57,6 @@ https://catalog.data.gov/es_AR/dataset/long-island-railroad-map<br />
 ### 4.Migration Data<br />
 We collected migration population data (both county and metro level) from Census. It’s a CSV file that contains the population number from an area to another area between 2014 to 2018. We then merged this CSV file with the geo basemaps based on FIPS codes so that the data can be spatially mapped.<br /> 
 The data is collected from U.S. Census.com<br />
-<br />
 https://www.census.gov/topics/population/migration/guidance/county-to-county-migration-flows.html <br />
 <br />
 
@@ -68,7 +65,7 @@ We collected economic data at the county level from U.S. Bureau of Economic Anal
 <br />
 The data is collected from US Bureau of Economic Analysis<br />
 https://apps.bea.gov/iTable/index_regional.cfm<br />
-
+<br />
 ### 6.Housing Data<br />
 We collected housing affordability data on the county level based on the American Community Survey results. We analyze the housing affordability in the New York Metro Area by processing the data and mapping the results on the map by combining different data frames.<br />
 <br />
