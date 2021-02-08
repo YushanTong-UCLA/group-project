@@ -71,7 +71,7 @@ We collected housing affordability data on the county level based on the America
 <br />
 The data is collected from U.S. Census.com<br />
 https://data.census.gov/cedsci/table?g=0400000US34_0500000US34037&tid=ACSDP5Y2019.DP04<br />
-
+<br />
 
 
 ## **Section 5. Methodology**
