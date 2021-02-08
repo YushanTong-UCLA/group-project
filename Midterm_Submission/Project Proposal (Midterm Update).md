@@ -29,46 +29,54 @@ As for time span, this project will engage the data in 2014 and 2018. However, w
 
 
 ## **Section 4. Data Sources**
-We are still following our initial plan for the data collection and processing. There are four groups of data we are currently engaging with: 
-Basemap Data:<br />
+There are mainly two types of data we are engaging with. The first is geo-data including SHP and JSON files. The second is census data which are dominantly CSV files. In addition, those data are grouped into six topics:<br />
 
-### 1. Geographic borders and contexts maps:<br />
+### 1. 1.	Base maps of County and Metro Borders<br />
 
-We already collected and processed the geodata of county and metro level map (shp file). We have used those files as the “geo-map” that match with our other datasets (e.g., csv files)<br />
-https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-county-and-equivalent-national-shapefile<br /> 
-
-- **1.1. Transit network:** <br />
-Yushan collected the transit system data in the New York Metro Area and combined them into two map layers: rail line and station. We are hoping to capture the relationship between migration trend and transit station density on the county level, so there is a need to combine the transit station layer with the county layer, and calculate station density based on geological location (“geometry”/”FIPS”).<br />
+We collected the geo-data for of county and metro level maps (SHP files). We use those geo-data as the “structure” to match with other non-geo-data so that we can visualize and map the findings.<br />
 <br />
-**Expected/Resulted Conclusion:**<br />
-At the county level, I hope to capture the relationship between the density of transit stations and migration trend in the New York Metro Area. I expect more people to migrate from the urban core to small cities/suburban areas with higher transit station density.<br /> 
- 
-### 2. Demographic Data:<br />
-- **2.1. Migration population data:**<br /> 
-Jayden collected migration population data (both county and metro level) from Census. It’s a CSV file that contains the population number from an area to another area between 2014 to 2018. He then merged this CSV file with the geo basemaps based on FIPS codes so that the data can be spatially mapped.<br /> 
-https://www.census.gov/topics/population/migration/guidance/county-to-county-migration-flows.html<br /> 
+The data is collected from U.S. Census.com<br />
+https://www.census.gov/cgi-bin/geo/shapefiles/index.php<br />
+<br />  
+### 2. 2.	Moving Trend During the COVID Pandemic<br />
+Due to the limited access to the moving data during the COVID time, we reproduced the findings from the existing research done by MyMove. We produced CSV file for those findings and re-visualized them in a way that respond to our research questions. We are doing this section is to present a basic current trend due to COVID.<br /> 
 <br />
-**Expected/Resulted Conclusions:**<br />
-At the regional scale, which metro regions have the most and least migration population => NYC metro has the largest number of migration-out populations. So, we decided to zoom in on this region for a detailed look.<br /> 
-At the regional level, which county do people in NYC migrate out. 
- 
-### 3. Economic Data:<br />
+The data is collected from MyMove.com<br /> 
+https://www.mymove.com/moving/covid-19/coronavirus-moving-trends/<br /> 
 
-- **3.1 Income and local GDP data:**<br />
-Jayden collected economic data at the county level from 
-U.S. Bureau of Economic Analysis. This is going to be downloaded as a CSV file that contains the income and GDP data. Jayden is currently processing those data and then merging it with the geo-data<br />.  
+<br />
+
+### 3. 3.	Transportation Network Data<br />
+
+We collected the transit system data in the New York Metro Area and combined them into two map layers: rail line and station. We are hoping to capture the relationship between migration trend and transit station density on the county level, so there is a need to combine the transit station layer with the county layer, and calculate station density based on geological location (“geometry”/”FIPS”).<br />.  
 https://apps.bea.gov/iTable/index_regional.cfm<br />
 <br />
-**Expected/Resulted Conclusions:**<br />
-The change of income level and local GDP for each county between 2014 to 2018.
- 	
-### 4. Housing Data:<br />
-Yushan is currently analyzing the housing affordability data on the county level based on the American Community Survey results. We analyze the housing affordability in the New York Metro Area by processing the data and mapping the results on the map by combining different dataframes.<br /> 
-https://data.census.gov/cedsci/table?g=0400000US34_0500000US34037&tid=ACSDP5Y2019.DP04<br />
+The data is collected from NJ and NJ transportation companies<br />
+https://njogis-newjersey.opendata.arcgis.com/datasets/passenger-railroad-lines-in-nj?geometry=-74.812%2C40.611%2C-73.505%2C40.793<br />
+https://njogis-newjersey.opendata.arcgis.com/datasets/railroad-stations-in-nj<br />
+https://catalog.data.gov/es_AR/dataset/long-island-railroad-map<br /> 
 <br />
-**Expected/Resulted Conclusion:**<br />
-As housing costs decrease with distance from urban core increases, and the increasing migration trend from city center to suburban areas, and the increased commuter population, we expect to see an increased affordability as the distance from urban core increases as a result of lower housing costs and higher income.<br /> 
-Based on the analysis we conducted on housing affordability so far, we observed a pattern of high housing affordability in the center of New York Metro Area (New York County). In addition, we observed the decreased affordability in the surrounding regions of New York County.<br />
+ 	
+### 4.Migration Data<br />
+We collected migration population data (both county and metro level) from Census. It’s a CSV file that contains the population number from an area to another area between 2014 to 2018. We then merged this CSV file with the geo basemaps based on FIPS codes so that the data can be spatially mapped.<br /> 
+The data is collected from U.S. Census.com<br />
+<br />
+https://www.census.gov/topics/population/migration/guidance/county-to-county-migration-flows.html <br />
+<br />
+
+### 5.Economic Metrics Data<br />
+We collected economic data at the county level from U.S. Bureau of Economic Analysis. Those are CSV files that contain the major economic metrics (GDP, income level, and the number of jobs). We compared the data between 2014 and 2018 to present the changes and merge with the geo-data in order to visually present the finding on the map.<br />
+<br />
+The data is collected from US Bureau of Economic Analysis<br />
+https://apps.bea.gov/iTable/index_regional.cfm<br />
+
+### 6.Housing Data<br />
+We collected housing affordability data on the county level based on the American Community Survey results. We analyze the housing affordability in the New York Metro Area by processing the data and mapping the results on the map by combining different data frames.<br />
+<br />
+The data is collected from U.S. Census.com<br />
+https://data.census.gov/cedsci/table?g=0400000US34_0500000US34037&tid=ACSDP5Y2019.DP04<br />
+
+
 
 ## **Section 5. Methodology**
 This project is designed with five steps to expand the discussion vertically and with three categories of data develop each research step horizontally.<br />
