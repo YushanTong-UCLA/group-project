@@ -31,22 +31,21 @@ As for time span, this project will engage the data in 2014 and 2018. However, w
 ## **Section 4. Data Sources**
 There are mainly two types of data we are engaging with. The first is geo-data including SHP and JSON files. The second is census data which are dominantly CSV files. In addition, those data are grouped into six topics:<br />
 
-### 1. 1.	Base maps of County and Metro Borders<br />
-
+### 1.Base maps of County and Metro Borders<br />
 We collected the geo-data for of county and metro level maps (SHP files). We use those geo-data as the “structure” to match with other non-geo-data so that we can visualize and map the findings.<br />
 <br />
 The data is collected from U.S. Census.com<br />
 https://www.census.gov/cgi-bin/geo/shapefiles/index.php<br />
-<br />  
-### 2. 2.	Moving Trend During the COVID Pandemic<br />
+<br /> 
+
+### 2.Moving Trend During the COVID Pandemic<br />
 Due to the limited access to the moving data during the COVID time, we reproduced the findings from the existing research done by MyMove. We produced CSV file for those findings and re-visualized them in a way that respond to our research questions. We are doing this section is to present a basic current trend due to COVID.<br /> 
 <br />
 The data is collected from MyMove.com<br /> 
 https://www.mymove.com/moving/covid-19/coronavirus-moving-trends/<br /> 
-
 <br />
 
-### 3. 3.	Transportation Network Data<br />
+### 3.Transportation Network Data<br />
 
 We collected the transit system data in the New York Metro Area and combined them into two map layers: rail line and station. We are hoping to capture the relationship between migration trend and transit station density on the county level, so there is a need to combine the transit station layer with the county layer, and calculate station density based on geological location (“geometry”/”FIPS”).<br />.  
 https://apps.bea.gov/iTable/index_regional.cfm<br />
