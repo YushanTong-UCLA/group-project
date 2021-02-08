@@ -83,6 +83,11 @@ As for the horizontal development of the research, our workflow generally involv
 <br />
 
 ## **Section 6. Expected Insights**
-Through this research project, we hope to conclude and record the intra-regional migration trend in the New York Metro Area from the perspectives of the migration direction, speed, and nature. Furthermore, by exploring the relationship between population migration and the transit network, we hope to be able to generalize the research findings to other metropolitan areas in the U.S. On the other hand, through studying the effects of migration, we hope to understand how we can respond and manage future migration and the challenges it will bring, especially in today’s pandemic context.  
+In light of current challenges in the pandemic and migration trends, we hope to unfold the discussion of intra-regional migration and transportation mobility. Through this research project, we are trying to capture the intra-regional migration trend in the New York Metro Area from the perspectives of the migration direction, speed, and nature. We hope this could build up some additional insights about what the migration trend is. <br />
+<br />
+Furthermore, by exploring the relationship between population migration and the transit network, we are trying to generalize the research findings to other metropolitan areas in the US. With the growing popularity of transit-oriented development models and migration, we hope this research could lead to an additional understanding of how transportation networks could direct and support the migration trend. <br />
+<br />
+Lastly, through studying the effects of migration, we are trying to predict the future migration trend and the potential challenges associated with it. Therefore, we hope this research can be helpful in providing insights of how we can respond and manage future migration and the challenges it will bring, especially in today’s pandemic context.
+ 
 
 
