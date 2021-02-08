@@ -25,7 +25,7 @@ Third, they matter in the context of transit-oriented development and migration.
 ## **Section 3. Spatial Scope**
 This project focuses on the geography of the New York Metropolitan Area (the “Area”). Specifically, this region refers to the “NY-NJ-CT-PA” combined statistical area (CSA) which includes four states and 31 countries. The Area is the largest metropolitan area in the U.S. and includes many largest cities in their states such as New York City, Jersey City, and New Haven. Also, the U.S. busiest commuter railways serve the Area, including MTA’s Long Island Rail Road, NJ Transit Rail, and MTA’s Metro-North. Therefore, the Area’s dynamics of population, economy, and living environments are self-evident, which will provide us a huge amount of available data for the research and analysis purpose.<br /> 
 
-As for time span, this project will engage the data within the last 10 years because the regional developments and changes happen more frequently in the longer run. 
+As for time span, this project will engage the data in 2014 and 2018. However, we are further expanding it to a 10-year frame because the regional developments and changes happen more frequently in the longer run. 
 
 
 ## **Section 4. Data Sources**
